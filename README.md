@@ -2,6 +2,27 @@
 
 * * *
 
+## ArgoX for VPS 运行脚本:
+
+```
+bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/argox/main/argox.sh)
+```
+
+  | Option 参数 | Remark 备注 |
+  | -----------| ------ |
+  | -c         | Chinese 中文 |
+  | -e         | English 英文 |
+  | -a         | Argo on-off Argo 开关 |
+  | -x         | Xray on-off Xray 开关 |
+  | -s         | Change the Argo tunnel 更换 Argo 隧道 |
+  | -f         | Variable file，refer to REPO file "config" 参数文件，可参数项目的文件 config |
+  | -u         | Uninstall 卸载 |
+  | -n         | Export Nodes list 显示节点信息 |
+  | -v         | Sync Argo Xray to the newest 同步 Argo Xray 到最新版本 |
+  | -b         | Upgrade kernel, turn on BBR, change Linux system 升级内核、安装BBR、DD脚本 |
+
+
+
 # 目录
 
 - [更新信息](README.md#更新信息)
@@ -70,25 +91,6 @@
 * 节点信息输出到 V2rayN / Clash Meta / 小火箭 / Nekobox / Sing-box (SFI, SFA, SFM)，订阅自动适配客户端，一个订阅 url 走天下；
 * 极速安装，即可交互式安装，也可像 docker compose 一样的非交互式安装，提前把所有的参数放到一个配置文件，全程不到5秒。
 
-
-## ArgoX for VPS 运行脚本:
-
-```
-bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/argox/main/argox.sh)
-```
-
-  | Option 参数 | Remark 备注 |
-  | -----------| ------ |
-  | -c         | Chinese 中文 |
-  | -e         | English 英文 |
-  | -a         | Argo on-off Argo 开关 |
-  | -x         | Xray on-off Xray 开关 |
-  | -s         | Change the Argo tunnel 更换 Argo 隧道 |
-  | -f         | Variable file，refer to REPO file "config" 参数文件，可参数项目的文件 config |
-  | -u         | Uninstall 卸载 |
-  | -n         | Export Nodes list 显示节点信息 |
-  | -v         | Sync Argo Xray to the newest 同步 Argo Xray 到最新版本 |
-  | -b         | Upgrade kernel, turn on BBR, change Linux system 升级内核、安装BBR、DD脚本 |
 
 
 
